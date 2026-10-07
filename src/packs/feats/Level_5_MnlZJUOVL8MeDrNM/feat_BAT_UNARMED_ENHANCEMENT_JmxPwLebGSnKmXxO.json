@@ -1,0 +1,70 @@
+{
+	"folder": "MnlZJUOVL8MeDrNM",
+	"name": "BAT UNARMED ENHANCEMENT",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": null,
+		"traits": {
+			"otherTags": [],
+			"value": ["lycanthrope"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 5
+		},
+		"category": "bonus",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"prerequisites": {
+			"value": []
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "JmxPwLebGSnKmXxO",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 0,
+	"ownership": {
+		"default": 0,
+		"VgNHGFD7Mb77Euf4": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791335655456,
+		"modifiedTime": 1791335655456,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!JmxPwLebGSnKmXxO"
+}

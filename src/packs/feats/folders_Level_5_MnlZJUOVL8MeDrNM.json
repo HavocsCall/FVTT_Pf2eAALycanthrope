@@ -1,0 +1,23 @@
+{
+	"type": "Item",
+	"folder": null,
+	"name": "Level 5",
+	"color": null,
+	"sorting": "a",
+	"_id": "MnlZJUOVL8MeDrNM",
+	"description": "",
+	"sort": 200000,
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791335655447,
+		"modifiedTime": 1791335655465,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!folders!MnlZJUOVL8MeDrNM"
+}

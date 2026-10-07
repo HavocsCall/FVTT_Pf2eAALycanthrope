@@ -1,23 +1,23 @@
 {
-  "type": "Item",
-  "folder": null,
-  "name": "Lycanthrope",
-  "color": null,
-  "sorting": "a",
-  "_id": "clzQeEEI3BUGCOiy",
-  "description": "",
-  "sort": 0,
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.367",
-    "systemId": "pf2e",
-    "systemVersion": "8.5.1",
-    "createdTime": 1791144956065,
-    "modifiedTime": 1791144956065,
-    "lastModifiedBy": "VgNHGFD7Mb77Euf4",
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null
-  },
-  "_key": "!folders!clzQeEEI3BUGCOiy"
+	"type": "Item",
+	"folder": null,
+	"name": "Lycanthrope",
+	"color": null,
+	"sorting": "a",
+	"_id": "clzQeEEI3BUGCOiy",
+	"description": "",
+	"sort": 0,
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791144956065,
+		"modifiedTime": 1791144956065,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!folders!clzQeEEI3BUGCOiy"
 }

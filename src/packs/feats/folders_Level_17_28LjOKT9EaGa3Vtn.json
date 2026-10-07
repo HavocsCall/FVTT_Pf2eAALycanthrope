@@ -1,0 +1,23 @@
+{
+	"type": "Item",
+	"folder": null,
+	"name": "Level 17",
+	"color": null,
+	"sorting": "a",
+	"_id": "28LjOKT9EaGa3Vtn",
+	"description": "",
+	"sort": 500000,
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791335666181,
+		"modifiedTime": 1791335666185,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!folders!28LjOKT9EaGa3Vtn"
+}

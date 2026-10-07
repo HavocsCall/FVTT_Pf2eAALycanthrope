@@ -2,15 +2,29 @@
 
 A custom Lycanthrope ancestry module for PF2e on Foundry VTT.
 
-## Requirements
+## Optional Additional Module
 
-- PF2e AA Library (`FVTT_Pf2eAALibrary`)
+[Calendaria](https://github.com/Sayshal/Calendaria) - To help with tracking the phases of the moon.
 
-## Current Scope
+## Installation
 
-- Lycanthrope ancestry
-- Crocodiline heritage
-- Ferality meter registration
-- Shared former-ancestry and meter behavior supplied by PF2e AA Library
+```
+https://github.com/HavocsCall/FVTT_Pf2eAALycanthrope/releases/latest/download/module.json
+```
 
-Ferality consequences and timing are not yet automated. The module is in early alpha.
+## Settings
+
+- `Former Ancestry: Use expanded sync`
+- `Ferality Meter: Show character sheet panel`
+
+## Development
+
+- `npm install` installs development dependencies.
+- `npm run lint` checks the JavaScript source with ESLint.
+- `npm run lint:fix` applies safe automatic ESLint fixes.
+- `npm run format` formats maintained source files with Prettier.
+- `npm run format:check` checks formatting without changing files.
+- `npm run check` checks both formatting and lint rules.
+- `npm run fix` formats files and applies safe ESLint fixes.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the version policy and release commands.

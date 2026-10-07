@@ -1,131 +1,115 @@
 {
-  "name": "Crocodiline",
-  "type": "heritage",
-  "effects": [],
-  "system": {
-    "_migration": {
-      "version": 0.959,
-      "previous": null
-    },
-    "description": {
-      "value": "<p>Were-crocodiles are common in Osirian and in the Mwangi expanse where the wide rivers often have numerous crocodiles. They possess both the ruthless determination of a crocodile and the intelligence and adaptability of a humanoid, a sinister fusion which creates a maliciously cunning creature that harbors no doubt about its martial superiority.<br>Known for their calculating nature and lecherous tendencies, were-crocodiles have a notorious obsession with dominating their foes and take pleasure in terrorizing any trespassers who dare to enter their domain. They adorn their territories with skulls and other macabre warnings showcasing these grim reminders to instill fear in the hearts of their rare visitors.<br>Typically, were-crocodiles prefer to confine themselves to their own territories, however there are those who maintain a connection to their human curiosity and they are inclined to move from place to place but generally stick to rivers or coastlines. These psychopathic but patient wanderers often venture far from their territory in pursuit of new and more challenging prey.</p><hr><p>While in your Animal or Hybrid form:</p><p>You have a jaws attack that deals @Damage[1d8[piercing]] damage with the grapple trait and in the brawling weapon group.</p><p>You gain the @UUID[Compendium.pf2e.feats-srd.aJUXbe9HJVvv0Mxa] general feat as a free feat.</p><p>You can speak with other Crocodilian animals, such as alligators, caimens, and crocodiles.</p><p>Your land speed is 25 ft and your swim speed is 15 ft.</p><p></p><p>While in your Animal form:</p><p>Your equipment melds into your new form. You use your unarmored defense modifier for your AC. Your weapons are not available. Magic items that have a passive effect no longer work and magic items are not able to be activated except items that are specifically made for animal forms (such as @UUID[Compendium.pf2e.equipment-srd.Dntj7zwUTmj4fboD]).</p><p>You are unable to cast spells or any actions that specifically need somatic requirements, like hand movements.</p><p>You are unable to speak, except to other animals of your type.</p>",
-      "gm": ""
-    },
-    "publication": {
-      "title": "",
-      "authors": "",
-      "license": "OGL",
-      "remaster": false
-    },
-    "rules": [
-      {
-        "category": "unarmed",
-        "damage": {
-          "base": {
-            "damageType": "piercing",
-            "dice": 1,
-            "die": "d8"
-          }
-        },
-        "group": "brawling",
-        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
-        "key": "Strike",
-        "label": "PF2E.BattleForm.Attack.Jaws",
-        "predicate": [
-          {
-            "or": [
-              "change-shape:hybrid",
-              "change-shape:animal"
-            ]
-          }
-        ],
-        "slug": "jaws",
-        "traits": [
-          "grapple",
-          "unarmed"
-        ]
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats-srd.aJUXbe9HJVvv0Mxa",
-        "allowDuplicate": false
-      },
-      {
-        "key": "BaseSpeed",
-        "predicate": [
-          {
-            "or": [
-              "change-shape:hybrid",
-              "change-shape:animal"
-            ]
-          }
-        ],
-        "selector": "swim",
-        "value": 15,
-        "force": true
-      },
-      {
-        "key": "BaseSpeed",
-        "selector": "land",
-        "value": 25,
-        "predicate": [
-          {
-            "or": [
-              "change-shape:hybrid",
-              "change-shape:animal"
-            ]
-          }
-        ],
-        "force": true
-      },
-      {
-        "key": "TokenImage",
-        "value": "modules/pf2e-tokens-bestiaries/tokens/humanoid/werecreature/werecrocodile.webp",
-        "ring": null,
-        "predicate": [
-          "change-shape:hybrid"
-        ]
-      },
-      {
-        "key": "TokenImage",
-        "value": "modules/pf2e-tokens-bestiaries/tokens/bestial/reptilian/crocodile.webp",
-        "ring": null,
-        "predicate": [
-          "change-shape:animal"
-        ]
-      }
-    ],
-    "slug": "crocodiline",
-    "traits": {
-      "otherTags": [],
-      "value": [],
-      "rarity": "common"
-    },
-    "ancestry": {
-      "name": "Lycanthrope",
-      "slug": "lycanthrope",
-      "uuid": "Compendium.FVTT_Pf2eAALycanthrope.ancestries.Item.Lycanthrope00001"
-    }
-  },
-  "_id": "duj4YXwEyiHhxUsH",
-  "img": "systems/pf2e/icons/default-icons/heritage.svg",
-  "folder": "clzQeEEI3BUGCOiy",
-  "ownership": {
-    "default": 0,
-    "VgNHGFD7Mb77Euf4": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "14.367",
-    "systemId": "pf2e",
-    "systemVersion": "8.5.1",
-    "createdTime": 1791169762388,
-    "modifiedTime": 1791230125693,
-    "lastModifiedBy": "VgNHGFD7Mb77Euf4",
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null
-  },
-  "sort": 0,
-  "_key": "!items!duj4YXwEyiHhxUsH"
+	"name": "Crocodiline",
+	"type": "heritage",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p>Were-crocodiles are common in Osirian and in the Mwangi expanse where the wide rivers often have numerous crocodiles. They possess both the ruthless determination of a crocodile and the intelligence and adaptability of a humanoid, a sinister fusion which creates a maliciously cunning creature that harbors no doubt about its martial superiority.<br>Known for their calculating nature and lecherous tendencies, were-crocodiles have a notorious obsession with dominating their foes and take pleasure in terrorizing any trespassers who dare to enter their domain. They adorn their territories with skulls and other macabre warnings showcasing these grim reminders to instill fear in the hearts of their rare visitors.<br>Typically, were-crocodiles prefer to confine themselves to their own territories, however there are those who maintain a connection to their human curiosity and they are inclined to move from place to place but generally stick to rivers or coastlines. These psychopathic but patient wanderers often venture far from their territory in pursuit of new and more challenging prey.</p><hr><p>While in your Animal or Hybrid form:</p><p>You have a jaws attack that deals @Damage[1d8[piercing]] damage with the grapple trait and in the brawling weapon group.</p><p>You gain the @UUID[Compendium.pf2e.feats-srd.aJUXbe9HJVvv0Mxa] general feat as a free feat.</p><p>You can speak with other Crocodilian animals, such as alligators, caimens, and crocodiles.</p><p>Your land speed is 25 ft and your swim speed is 15 ft.</p><p></p><p>While in your Animal form:</p><p>Your equipment melds into your new form. You use your unarmored defense modifier for your AC. Your weapons are not available. Magic items that have a passive effect no longer work and magic items are not able to be activated except items that are specifically made for animal forms (such as @UUID[Compendium.pf2e.equipment-srd.Dntj7zwUTmj4fboD]).</p><p>You are unable to cast spells or any actions that specifically need somatic requirements, like hand movements.</p><p>You are unable to speak, except to other animals of your type.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [
+			{
+				"category": "unarmed",
+				"damage": {
+					"base": {
+						"damageType": "piercing",
+						"dice": 1,
+						"die": "d8"
+					}
+				},
+				"group": "brawling",
+				"img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+				"key": "Strike",
+				"label": "PF2E.BattleForm.Attack.Jaws",
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				],
+				"slug": "jaws",
+				"traits": ["grapple", "unarmed"]
+			},
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.feats-srd.aJUXbe9HJVvv0Mxa",
+				"allowDuplicate": false
+			},
+			{
+				"key": "BaseSpeed",
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				],
+				"selector": "swim",
+				"value": 15,
+				"force": true
+			},
+			{
+				"key": "BaseSpeed",
+				"selector": "land",
+				"value": 25,
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				],
+				"force": true
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/pf2e-tokens-bestiaries/tokens/humanoid/werecreature/werecrocodile.webp",
+				"ring": null,
+				"predicate": ["change-shape:hybrid"]
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/pf2e-tokens-bestiaries/tokens/bestial/reptilian/crocodile.webp",
+				"ring": null,
+				"predicate": ["change-shape:animal"]
+			}
+		],
+		"slug": "crocodiline",
+		"traits": {
+			"otherTags": [],
+			"value": [],
+			"rarity": "common"
+		},
+		"ancestry": {
+			"name": "Lycanthrope",
+			"slug": "lycanthrope",
+			"uuid": "Compendium.FVTT_Pf2eAALycanthrope.ancestries.Item.Lycanthrope00001"
+		}
+	},
+	"_id": "duj4YXwEyiHhxUsH",
+	"img": "systems/pf2e/icons/default-icons/heritage.svg",
+	"folder": "clzQeEEI3BUGCOiy",
+	"ownership": {
+		"default": 0,
+		"VgNHGFD7Mb77Euf4": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791169762388,
+		"modifiedTime": 1791230125693,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"sort": 0,
+	"_key": "!items!duj4YXwEyiHhxUsH"
 }

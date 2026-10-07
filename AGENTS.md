@@ -1,6 +1,7 @@
 # AGENTS.md
 
 ## General Agent behavior
+
 - Do not make any direct changes unless asked to
 - Explain the reasoning behind your suggestions
 - Do not assume anything
@@ -18,6 +19,7 @@
 - Update README.md when applicable
 
 ## Project Context
+
 - Mod name: `FVTT_PF2eAALycanthrope`
 - Display Name: `PF2e AA: Lycanthrope`
 - Platform: `FoundryVTT version 14`
@@ -27,4 +29,5 @@
 - Mod purpose: To add the Lycanthrope ancestry with associated heritages, feats, features, actions, and ferality automation. Shared runtime behavior belongs in `FVTT_Pf2eAALibrary`.
 
 ## Project Specific Agent Behavior
+
 - When making changes directly in this repo, edit the JSON source files in `src/packs` and only run `Json-to-Compendium` afterward. Do not run `Compendium-to-Json` as part of that workflow.

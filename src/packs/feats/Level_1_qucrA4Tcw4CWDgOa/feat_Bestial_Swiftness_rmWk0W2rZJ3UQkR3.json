@@ -1,0 +1,94 @@
+{
+	"folder": "qucrA4Tcw4CWDgOa",
+	"name": "Bestial Swiftness",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p>You're adept at using your animal shape's natural means of locomotion. While you're in animal shape, the Speeds granted by that shape increases by 10 feet.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [
+			{
+				"key": "FlatModifier",
+				"selector": ["land-speed"],
+				"value": 10,
+				"predicate": ["change-shape:animal"]
+			},
+			{
+				"key": "FlatModifier",
+				"selector": ["swim-speed"],
+				"value": 10,
+				"predicate": [
+					{
+						"or": ["heritage:crocodiline", "heritage:selachine"]
+					},
+					"change-shape:animal"
+				]
+			},
+			{
+				"key": "FlatModifier",
+				"selector": ["fly-speed"],
+				"value": 10,
+				"predicate": ["heritage:vespertiline", "change-shape:animal"]
+			}
+		],
+		"slug": "bestial-swiftness",
+		"traits": {
+			"otherTags": [],
+			"value": ["lycanthrope"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 1
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"prerequisites": {
+			"value": []
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "rmWk0W2rZJ3UQkR3",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 0,
+	"ownership": {
+		"default": 0,
+		"VgNHGFD7Mb77Euf4": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791335652673,
+		"modifiedTime": 1791336282127,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!rmWk0W2rZJ3UQkR3"
+}

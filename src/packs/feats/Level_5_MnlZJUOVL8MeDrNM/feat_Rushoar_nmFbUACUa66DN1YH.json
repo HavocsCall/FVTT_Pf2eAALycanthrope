@@ -1,0 +1,70 @@
+{
+	"folder": "MnlZJUOVL8MeDrNM",
+	"name": "Rushoar",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p><strong>Requirements</strong> You're in boar or hybrid shape.</p><p><strong>Trigger</strong> Your last action was stride at least 10 ft towards the target</p><hr><p>You strike with your tusks. You gain a circumstance bonus to damage equal to the number of damage die.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": null,
+		"traits": {
+			"otherTags": [],
+			"value": ["lycanthrope"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 5
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "action"
+		},
+		"actions": {
+			"value": 1
+		},
+		"prerequisites": {
+			"value": []
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "nmFbUACUa66DN1YH",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 0,
+	"ownership": {
+		"default": 0,
+		"VgNHGFD7Mb77Euf4": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791335655459,
+		"modifiedTime": 1791335655459,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!nmFbUACUa66DN1YH"
+}

@@ -1,166 +1,146 @@
 {
-  "name": "Lycanthrope",
-  "type": "ancestry",
-  "effects": [],
-  "system": {
-    "description": {
-      "gm": "",
-      "value": "<p>You retain most of your original ancestry's mechanics while in your humanoid form.</p><p>You gain a weakness to silver equal to half your level.</p><p>You gain the @UUID[Compendium.pf2e.actionspf2e.Item.34E7k2YRcsOU5uyl]{Change Shape} action. On the 3 nights of the full moon, you automatically use Change Shape to assume your hybrid shape, and you can't voluntarily activate or dismiss Change Shape until sunrise. You are more feral during this time exhibiting bestial traits from your animal type. Afterwards, you return to your humanoid form and are fatigued for [[/r 2d4 #hours]]{2d4 hours}, during which, you can't voluntarily activate Change Shape.</p><p>You gain the @UUID[Compendium.pf2e.feats-srd.N8Xz5fuW6o7GW124] general feat as a free feat.</p><p>Ancestry feats from your original ancestry only apply in your humanoid form.</p>"
-    },
-    "rules": [
-      {
-        "choices": {
-          "filter": [
-            {
-              "not": "item:slug:{actor|system.details.ancestry.trait}"
-            }
-          ],
-          "itemType": "ancestry",
-          "slugsAsValues": true
-        },
-        "flag": "ancestry",
-        "key": "ChoiceSet",
-        "prompt": "FVTT_PF2EAALYCANTHROPE.SPECIFICRULES.PREVIOUSANCESTRY"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "system.details.ancestry.adopted",
-        "value": "{item|flags.pf2e.rulesSelections.ancestry}"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "mode": "add",
-        "path": "system.details.ancestry.countsAs",
-        "value": "{item|flags.pf2e.rulesSelections.ancestry}"
-      },
-      {
-        "key": "Weakness",
-        "type": "silver",
-        "value": "floor(@actor.level/2)"
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e.actionspf2e.Item.34E7k2YRcsOU5uyl",
-        "allowDuplicate": false
-      },
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e.feats-srd.N8Xz5fuW6o7GW124",
-        "allowDuplicate": false
-      },
-      {
-        "alwaysActive": true,
-        "key": "RollOption",
-        "label": "PF2E.NPCAbility.ChangeShape.Label",
-        "mergeable": true,
-        "option": "change-shape",
-        "suboptions": [
-          {
-            "label": "PF2E.NPCAbility.ChangeShape.Form.Hybrid",
-            "value": "hybrid"
-          },
-          {
-            "label": "PF2E.NPCAbility.ChangeShape.Form.Animal.Animal",
-            "value": "animal"
-          }
-        ],
-        "toggleable": true
-      }
-    ],
-    "slug": "lycanthrope",
-    "_migration": {
-      "version": 0.943,
-      "lastMigration": null,
-      "previous": {
-        "schema": 0.943,
-        "foundry": "13.348",
-        "system": "7.5.2"
-      }
-    },
-    "traits": {
-      "otherTags": [],
-      "value": [
-        "beast",
-        "humanoid",
-        "lycanthrope"
-      ],
-      "rarity": "rare"
-    },
-    "publication": {
-      "title": "",
-      "authors": "",
-      "license": "OGL",
-      "remaster": false
-    },
-    "hp": 8,
-    "size": "med",
-    "hands": 2,
-    "reach": 5,
-    "speed": 25,
-    "boosts": {
-      "0": {
-        "value": [
-          "cha",
-          "con",
-          "dex",
-          "int",
-          "str",
-          "wis"
-        ]
-      },
-      "1": {
-        "value": [
-          "cha",
-          "con",
-          "dex",
-          "int",
-          "str",
-          "wis"
-        ]
-      },
-      "2": {
-        "value": []
-      }
-    },
-    "flaws": {
-      "0": {
-        "value": []
-      }
-    },
-    "languages": {
-      "value": [
-        "common"
-      ],
-      "custom": ""
-    },
-    "additionalLanguages": {
-      "count": 0,
-      "value": [],
-      "custom": ""
-    },
-    "items": {},
-    "vision": "normal"
-  },
-  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
-  "folder": null,
-  "ownership": {
-    "default": 0,
-    "UPnjMbTUnpLyKVOr": 3
-  },
-  "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "exportSource": null,
-    "coreVersion": "14.367",
-    "systemId": "pf2e",
-    "systemVersion": "8.5.1",
-    "createdTime": 1790654400000,
-    "modifiedTime": 1791228541959,
-    "lastModifiedBy": "VgNHGFD7Mb77Euf4"
-  },
-  "_id": "Lycanthrope00001",
-  "sort": 0,
-  "_key": "!items!Lycanthrope00001"
+	"name": "Lycanthrope",
+	"type": "ancestry",
+	"effects": [],
+	"system": {
+		"description": {
+			"gm": "",
+			"value": "<p>You retain most of your original ancestry's mechanics while in your humanoid form.</p><p>You gain a weakness to silver equal to half your level.</p><p>You gain the @UUID[Compendium.pf2e.actionspf2e.Item.34E7k2YRcsOU5uyl]{Change Shape} action. On the 3 nights of the full moon, you automatically use Change Shape to assume your hybrid shape, and you can't voluntarily activate or dismiss Change Shape until sunrise. You are more feral during this time exhibiting bestial traits from your animal type. Afterwards, you return to your humanoid form and are fatigued for [[/r 2d4 #hours]]{2d4 hours}, during which, you can't voluntarily activate Change Shape.</p><p>You gain the @UUID[Compendium.pf2e.feats-srd.N8Xz5fuW6o7GW124] general feat as a free feat.</p><p>Ancestry feats from your original ancestry only apply in your humanoid form.</p>"
+		},
+		"rules": [
+			{
+				"choices": {
+					"filter": [
+						{
+							"not": "item:slug:{actor|system.details.ancestry.trait}"
+						}
+					],
+					"itemType": "ancestry",
+					"slugsAsValues": true
+				},
+				"flag": "ancestry",
+				"key": "ChoiceSet",
+				"prompt": "FVTT_PF2EAALYCANTHROPE.SPECIFICRULES.PREVIOUSANCESTRY"
+			},
+			{
+				"key": "ActiveEffectLike",
+				"mode": "override",
+				"path": "system.details.ancestry.adopted",
+				"value": "{item|flags.pf2e.rulesSelections.ancestry}"
+			},
+			{
+				"key": "ActiveEffectLike",
+				"mode": "add",
+				"path": "system.details.ancestry.countsAs",
+				"value": "{item|flags.pf2e.rulesSelections.ancestry}"
+			},
+			{
+				"key": "Weakness",
+				"type": "silver",
+				"value": "floor(@actor.level/2)"
+			},
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.actionspf2e.Item.34E7k2YRcsOU5uyl",
+				"allowDuplicate": false
+			},
+			{
+				"key": "GrantItem",
+				"uuid": "Compendium.pf2e.feats-srd.N8Xz5fuW6o7GW124",
+				"allowDuplicate": false
+			},
+			{
+				"alwaysActive": true,
+				"key": "RollOption",
+				"label": "PF2E.NPCAbility.ChangeShape.Label",
+				"mergeable": true,
+				"option": "change-shape",
+				"suboptions": [
+					{
+						"label": "PF2E.NPCAbility.ChangeShape.Form.Hybrid",
+						"value": "hybrid"
+					},
+					{
+						"label": "PF2E.NPCAbility.ChangeShape.Form.Animal.Animal",
+						"value": "animal"
+					}
+				],
+				"toggleable": true
+			}
+		],
+		"slug": "lycanthrope",
+		"_migration": {
+			"version": 0.943,
+			"lastMigration": null,
+			"previous": {
+				"schema": 0.943,
+				"foundry": "13.348",
+				"system": "7.5.2"
+			}
+		},
+		"traits": {
+			"otherTags": [],
+			"value": ["beast", "humanoid", "lycanthrope"],
+			"rarity": "rare"
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"hp": 8,
+		"size": "med",
+		"hands": 2,
+		"reach": 5,
+		"speed": 25,
+		"boosts": {
+			"0": {
+				"value": ["cha", "con", "dex", "int", "str", "wis"]
+			},
+			"1": {
+				"value": ["cha", "con", "dex", "int", "str", "wis"]
+			},
+			"2": {
+				"value": []
+			}
+		},
+		"flaws": {
+			"0": {
+				"value": []
+			}
+		},
+		"languages": {
+			"value": ["common"],
+			"custom": ""
+		},
+		"additionalLanguages": {
+			"count": 0,
+			"value": [],
+			"custom": ""
+		},
+		"items": {},
+		"vision": "normal"
+	},
+	"img": "systems/pf2e/icons/default-icons/ancestry.svg",
+	"folder": null,
+	"ownership": {
+		"default": 0,
+		"UPnjMbTUnpLyKVOr": 3
+	},
+	"flags": {},
+	"_stats": {
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null,
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1790654400000,
+		"modifiedTime": 1791228541959,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4"
+	},
+	"_id": "Lycanthrope00001",
+	"sort": 0,
+	"_key": "!items!Lycanthrope00001"
 }

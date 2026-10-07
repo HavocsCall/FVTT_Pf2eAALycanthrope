@@ -1,0 +1,70 @@
+{
+	"folder": "MnlZJUOVL8MeDrNM",
+	"name": "Death Roll (Crocodiline)",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p><strong>Requirements</strong> You are in your crocodile or hybrid shape and have a creature @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]</p><hr><p>You corkscrew your body, twisting your victim. You attempt a jaws Strike against the grabbed creature, with a +2 circumstance bonus if you're fighting in water. If the Strike hits, you knock the creature @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]; if it misses, they escape your grab.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": null,
+		"traits": {
+			"otherTags": [],
+			"value": ["lycanthrope"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 5
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"prerequisites": {
+			"value": []
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "G4kzTuNK1rMB7IMU",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 300000,
+	"ownership": {
+		"default": 0,
+		"VgNHGFD7Mb77Euf4": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791335655457,
+		"modifiedTime": 1791335655457,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!G4kzTuNK1rMB7IMU"
+}

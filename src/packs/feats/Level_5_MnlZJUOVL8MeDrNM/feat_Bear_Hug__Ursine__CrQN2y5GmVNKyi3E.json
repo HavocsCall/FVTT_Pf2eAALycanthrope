@@ -1,0 +1,70 @@
+{
+	"folder": "MnlZJUOVL8MeDrNM",
+	"name": "Bear Hug (Ursine)",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p><strong>Requirements</strong> You're in bear or hybrid shape, and your last action was a successful claw Strike.</p><hr><p>You hug your opponent. You make another claw Strike against the same target. If this Strike hits, the target is @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} until the end of your next turn, unless you move or your target @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes}.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": "bear-hug-ursine",
+		"traits": {
+			"otherTags": [],
+			"value": ["lycanthrope"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 5
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"prerequisites": {
+			"value": []
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "CrQN2y5GmVNKyi3E",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 100000,
+	"ownership": {
+		"default": 0,
+		"VgNHGFD7Mb77Euf4": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791335655457,
+		"modifiedTime": 1791335655457,
+		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!CrQN2y5GmVNKyi3E"
+}

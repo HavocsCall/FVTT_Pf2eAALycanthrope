@@ -2,23 +2,49 @@
 
 ## Lycanthropes
 
-Afflicted, Beastkin, and natural-born Lycanthropes are all different. Natural-born Lycanthropes are probably outside the module's scope.
-
 - Speak with animals of the same type
-- Ferality that increases with time
+- Ferality that increases. Need to figure out the most practical way to handle this.
 - Normal, hybrid, and animal forms
-- Casting restrictions while fully changed
-- Limited transformation duration
 - Weakness to silver
 - Fast Recovery as a granted general feat
+- Full Moon forces the hybrid form
 
-### Heritage concepts
+### Crocodiline
 
-- Lupine: scent, upgraded vision, finesse bite
-- Ursine: increased health, high-damage claws
-- Pantherine: hearing or darkvision, agile finesse claws
-- Crocodiline: were-crocodiles
-- Suine: were-boars
-- Murine: were-rats
-- Vespertiline: were-bats
-- Selachine: were-sharks
+Were-crocodiles
+1d8 Piercing jaws, grapple
+
+### Lupine
+
+Were-wolves
+1d8 Piercing jaws, trip
+
+### Murine
+
+Were-rats
+1d6 piercing jaws, finesse
+
+### Pantherine
+
+Were-tigers
+1d8 slashing claws, agile
+
+### Selachine
+
+Were-sharks
+1d8 piercing jaws, agile
+
+### Suine
+
+Were-boars
+1d8 Slashing tusks, shove
+
+### Ursine
+
+Were-bears
+1d8 slashing claws, grapple
+
+### Vestertiline
+
+Were-bats
+1d6 slashing claws, finesse
