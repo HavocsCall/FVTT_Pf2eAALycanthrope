@@ -1,0 +1,18 @@
+{
+  "FVTT_PF2EAALYCANTHROPE": {
+    "NAME": "PF2e AA: Lycanthrope",
+    "SPECIFICRULES": { "PREVIOUSANCESTRY": "Which ancestry did you have before becoming a lycanthrope?" },
+    "METERS": { "FERALITY": { "LABEL": "Ferality", "EMPTY": "No ferality capacity" } },
+    "TRAIT": {
+      "LYCANTHROPE": { "LABEL": "Lycanthrope", "DESCRIPTION": "This trait marks feats, abilities, and creatures associated with the lycanthrope ancestry." },
+      "CROCODILINE": { "LABEL": "Crocodiline", "DESCRIPTION": "A were-crocodile lycanthrope lineage." },
+      "LUPINE": { "LABEL": "Lupine", "DESCRIPTION": "A were-wolf lycanthrope lineage." },
+      "URSINE": { "LABEL": "Ursine", "DESCRIPTION": "A were-bear lycanthrope lineage." },
+      "PANTHERINE": { "LABEL": "Pantherine", "DESCRIPTION": "A were-tiger lycanthrope lineage." },
+      "SUINE": { "LABEL": "Suine", "DESCRIPTION": "A were-boar lycanthrope lineage." },
+      "VESPERTILINE": { "LABEL": "Vespertiline", "DESCRIPTION": "A were-bat lycanthrope lineage." },
+      "SELACHINE": { "LABEL": "Selachine", "DESCRIPTION": "A were-shark lycanthrope lineage." },
+      "MURINE": { "LABEL": "Murine", "DESCRIPTION": "A were-rat lycanthrope lineage." }
+    }
+  }
+}
