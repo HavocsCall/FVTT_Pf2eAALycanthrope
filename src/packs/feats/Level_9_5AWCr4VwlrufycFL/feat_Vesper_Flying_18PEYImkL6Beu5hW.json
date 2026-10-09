@@ -1,0 +1,82 @@
+{
+	"folder": "5AWCr4VwlrufycFL",
+	"name": "Vesper Flying",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p>Your wings grow stronger. While in your Hybrid or Animal form, your flight speed increases to 25 ft and you no longer need to start and end on solid ground.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [
+			{
+				"key": "BaseSpeed",
+				"selector": "fly",
+				"value": 25,
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				],
+				"force": true
+			}
+		],
+		"slug": null,
+		"traits": {
+			"otherTags": [],
+			"value": ["lycanthrope", "vespertiline"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 9
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"prerequisites": {
+			"value": []
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "18PEYImkL6Beu5hW",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 100000,
+	"ownership": {
+		"default": 0,
+		"XXjyL2AwsEjLd9sN": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791415098892,
+		"modifiedTime": 1791423502178,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!18PEYImkL6Beu5hW"
+}

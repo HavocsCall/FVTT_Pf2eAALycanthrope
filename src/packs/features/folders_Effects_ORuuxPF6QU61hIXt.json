@@ -1,10 +1,10 @@
 {
 	"type": "Item",
 	"folder": null,
-	"name": "Lycanthrope",
+	"name": "Effects",
 	"color": null,
 	"sorting": "a",
-	"_id": "clzQeEEI3BUGCOiy",
+	"_id": "ORuuxPF6QU61hIXt",
 	"description": "",
 	"sort": 0,
 	"flags": {},
@@ -12,12 +12,12 @@
 		"coreVersion": "14.367",
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
-		"createdTime": 1791144956065,
-		"modifiedTime": 1791144956065,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"createdTime": 1791426029334,
+		"modifiedTime": 1791426029334,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null
 	},
-	"_key": "!folders!clzQeEEI3BUGCOiy"
+	"_key": "!folders!ORuuxPF6QU61hIXt"
 }

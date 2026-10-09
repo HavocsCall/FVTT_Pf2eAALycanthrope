@@ -23,7 +23,20 @@
 				"key": "FlatModifier",
 				"selector": ["land-speed"],
 				"value": 10,
-				"predicate": ["change-shape:animal"]
+				"predicate": [
+					{
+						"or": [
+							"heritage:crocodiline",
+							"heritage:Lupine",
+							"heritage:Murine",
+							"heritage:Pantherine",
+							"heritage:Suine",
+							"heritage:Ursine",
+							"heritage:Vespertiline"
+						]
+					},
+					"change-shape:animal"
+				]
 			},
 			{
 				"key": "FlatModifier",
@@ -84,8 +97,8 @@
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
 		"createdTime": 1791335652673,
-		"modifiedTime": 1791336282127,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"modifiedTime": 1791404948216,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null

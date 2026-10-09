@@ -1,0 +1,99 @@
+{
+	"name": "Pantherine",
+	"type": "heritage",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p>Were-cats, most commonly were-tigers.</p><hr><p><strong>While in your Animal or Hybrid form:</strong></p><p>You have a claw attack that deals @Damage[1d8[slashing]] damage with the agile trait and in the brawling weapon group.</p><p>You can speak with other feline creatures.</p><p>Your land speed is 25 ft.</p><p></p><p><strong>While in your Animal form:</strong></p><p>Your equipment melds into your new form. You use your unarmored defense modifier for your AC. Your weapons are not available. Magic items that have a passive effect no longer work and magic items are not able to be activated except items that are specifically made for animal forms (such as @UUID[Compendium.pf2e.equipment-srd.Dntj7zwUTmj4fboD]).</p><p>You are unable to cast spells or any actions that specifically need somatic requirements, like hand movements.</p><p>You are unable to speak, except to other animals of your type.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [
+			{
+				"category": "unarmed",
+				"damage": {
+					"base": {
+						"damageType": "slashing",
+						"dice": 1,
+						"die": "d8"
+					}
+				},
+				"group": "brawling",
+				"img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+				"key": "Strike",
+				"label": "PF2E.BattleForm.Attack.Claw",
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				],
+				"slug": "pantherine-claw",
+				"traits": ["agile", "unarmed"]
+			},
+			{
+				"key": "BaseSpeed",
+				"selector": "land",
+				"value": 30,
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				],
+				"force": true
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/pf2e-tokens-bestiaries/tokens/humanoid/werecreature/weretiger.webp",
+				"ring": null,
+				"predicate": ["change-shape:hybrid"]
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/pf2e-tokens-bestiaries/tokens/bestial/mammalian/tiger.webp",
+				"ring": null,
+				"predicate": ["change-shape:animal"]
+			}
+		],
+		"slug": "pantherine",
+		"traits": {
+			"otherTags": [],
+			"value": ["pantherine"],
+			"rarity": "common"
+		},
+		"ancestry": {
+			"name": "Lycanthrope",
+			"slug": "lycanthrope",
+			"uuid": "Compendium.FVTT_Pf2eAALycanthrope.ancestries.Item.Lycanthrope00001"
+		}
+	},
+	"_id": "XE3K9g6RVUin68Gl",
+	"img": "systems/pf2e/icons/default-icons/heritage.svg",
+	"folder": null,
+	"ownership": {
+		"default": 0,
+		"XXjyL2AwsEjLd9sN": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791401172481,
+		"modifiedTime": 1791410712919,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"sort": 300000,
+	"_key": "!items!XE3K9g6RVUin68Gl"
+}

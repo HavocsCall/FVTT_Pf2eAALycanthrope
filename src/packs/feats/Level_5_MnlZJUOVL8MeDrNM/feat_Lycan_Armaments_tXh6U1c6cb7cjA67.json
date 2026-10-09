@@ -1,6 +1,6 @@
 {
 	"folder": "MnlZJUOVL8MeDrNM",
-	"name": "Bleeding Frenzy (NEW NAME)",
+	"name": "Lycan Armaments",
 	"type": "feat",
 	"effects": [],
 	"system": {
@@ -9,7 +9,7 @@
 			"previous": null
 		},
 		"description": {
-			"value": "<p>Your serrated teeth rip and tear at your prey. When you critically hit with your jaws Strike from selachine heritage, your target takes 1d4 persistent bleed damage and you gain a +1 circumstance bonus to jaws Strikes against the target until the end of your turn.</p><p>If you have Bloodsense as a special sense, it becomes a precise sense with double its normal range when locating creatures taking persistent bleed damage.</p>",
+			"value": "<p>Gain an additional unarmed strike relevant to your lycnathope curse from the following:</p><p>Fangs/Jaws - Piercing</p><p>Claws - Slashing</p><p>Tail - Bludgeoning</p><p>Damage dice:</p><p>1d8</p><p>1d6 Agile</p><p>1d6 Finesse</p>",
 			"gm": ""
 		},
 		"publication": {
@@ -19,7 +19,7 @@
 			"remaster": false
 		},
 		"rules": [],
-		"slug": null,
+		"slug": "lycan-armaments",
 		"traits": {
 			"otherTags": [],
 			"value": ["lycanthrope"],
@@ -47,9 +47,9 @@
 		},
 		"location": null
 	},
-	"_id": "0cmcl6jLUs2h16vf",
+	"_id": "tXh6U1c6cb7cjA67",
 	"img": "icons/sundries/books/book-red-exclamation.webp",
-	"sort": 0,
+	"sort": 900000,
 	"ownership": {
 		"default": 0,
 		"VgNHGFD7Mb77Euf4": 3
@@ -59,12 +59,12 @@
 		"coreVersion": "14.367",
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
-		"createdTime": 1791335655457,
-		"modifiedTime": 1791335655457,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"createdTime": 1791335655458,
+		"modifiedTime": 1791410532132,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null
 	},
-	"_key": "!items!0cmcl6jLUs2h16vf"
+	"_key": "!items!tXh6U1c6cb7cjA67"
 }

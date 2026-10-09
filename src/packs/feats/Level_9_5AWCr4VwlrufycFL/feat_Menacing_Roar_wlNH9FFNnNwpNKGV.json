@@ -1,0 +1,74 @@
+{
+	"folder": "5AWCr4VwlrufycFL",
+	"name": "Menacing Roar",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p><strong>Frequency</strong> Once per Hour</p><p><strong>Requirements</strong> You are in Hybrid or Animal Form</p><hr><p>With a powerful growl, howl, or roar, you attempt to frighten up to 5 targets within 30 feet. The targets must attempt a will save against your Class DC or Spell DC, whichever is higher. This is treated as a Demoralize and regardless of your result, the targets are temporarily immune to your attempts to Demoralize it or any attempt of Frightening Call for 10 minutes.</p><hr><p><strong>Critical Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p><p><strong>Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": null,
+		"traits": {
+			"otherTags": [],
+			"value": ["lupine", "lycanthrope", "pantherine"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 9
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "action"
+		},
+		"actions": {
+			"value": 2
+		},
+		"prerequisites": {
+			"value": [
+				{
+					"value": "Lupine Heritage or Pantherine Heritage"
+				}
+			]
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "wlNH9FFNnNwpNKGV",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 600000,
+	"ownership": {
+		"default": 0,
+		"XXjyL2AwsEjLd9sN": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791416234239,
+		"modifiedTime": 1791423502178,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!wlNH9FFNnNwpNKGV"
+}

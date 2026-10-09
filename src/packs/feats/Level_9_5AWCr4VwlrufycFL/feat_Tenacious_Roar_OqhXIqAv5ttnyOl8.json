@@ -1,0 +1,74 @@
+{
+	"folder": "5AWCr4VwlrufycFL",
+	"name": "Tenacious Roar",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p><strong>Frequency</strong> Once per Hour</p><p><strong>Requirements</strong> You are in your Hybrid or Animal Form</p><hr><p>With a mighty roar, you embolden yourself and allies. Up to 4 allies within 30 feet gain temporary health equal to half of your level rounded down that last for 1 minute.</p><hr><p>@UUID[Compendium.FVTT_Pf2eAALycanthrope.features.5ohNxKWrspLtc5kh]</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": null,
+		"traits": {
+			"otherTags": [],
+			"value": ["lycanthrope", "ursine"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 9
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "action"
+		},
+		"actions": {
+			"value": 2
+		},
+		"prerequisites": {
+			"value": [
+				{
+					"value": "Ursine Heritage"
+				}
+			]
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "OqhXIqAv5ttnyOl8",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 300000,
+	"ownership": {
+		"default": 0,
+		"XXjyL2AwsEjLd9sN": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791419586698,
+		"modifiedTime": 1791426055896,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!OqhXIqAv5ttnyOl8"
+}

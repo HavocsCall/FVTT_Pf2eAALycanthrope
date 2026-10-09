@@ -1,6 +1,6 @@
 {
 	"folder": "MnlZJUOVL8MeDrNM",
-	"name": "Plague Rodent (NEW NAME)",
+	"name": "Roll of Death",
 	"type": "feat",
 	"effects": [],
 	"system": {
@@ -9,7 +9,7 @@
 			"previous": null
 		},
 		"description": {
-			"value": "<p>Your bites carry a cursed infection. When you hit and deal damage to a creature with a jaws Strike while in hybrid or rat shape, the creature is cursed until the start of your next turn. Whenever they regain Hit Points during that time, they must attempt a @Check[fortitude|against:class-spell] save against your class DC or spell DC, whichever is higher.</p><hr><p>Success The creature regains Hit Points normally.</p><p>Failure The creature regains half the normal Hit Points.</p><p>Critical Failure The creature regains no Hit Points.</p>",
+			"value": "<p><strong>Requirements</strong> You are in your crocodile or hybrid shape and have a creature @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]</p><hr><p>You corkscrew your body, twisting your victim. You attempt a jaws Strike against the grabbed creature, with a +2 circumstance bonus if you're fighting in water. If the Strike hits, you knock the creature @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]; if it misses, they escape your grab.</p>",
 			"gm": ""
 		},
 		"publication": {
@@ -19,7 +19,7 @@
 			"remaster": false
 		},
 		"rules": [],
-		"slug": "plague-rodent-new-name",
+		"slug": "roll-of-death",
 		"traits": {
 			"otherTags": [],
 			"value": ["lycanthrope"],
@@ -38,7 +38,11 @@
 			"value": null
 		},
 		"prerequisites": {
-			"value": []
+			"value": [
+				{
+					"value": "Crocodiline Heritage"
+				}
+			]
 		},
 		"subfeatures": {
 			"proficiencies": {},
@@ -47,9 +51,9 @@
 		},
 		"location": null
 	},
-	"_id": "UFNe4FHzcERXBpkP",
+	"_id": "G4kzTuNK1rMB7IMU",
 	"img": "icons/sundries/books/book-red-exclamation.webp",
-	"sort": 0,
+	"sort": 1000000,
 	"ownership": {
 		"default": 0,
 		"VgNHGFD7Mb77Euf4": 3
@@ -59,12 +63,12 @@
 		"coreVersion": "14.367",
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
-		"createdTime": 1791335655459,
-		"modifiedTime": 1791335655459,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"createdTime": 1791335655457,
+		"modifiedTime": 1791415978425,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null
 	},
-	"_key": "!items!UFNe4FHzcERXBpkP"
+	"_key": "!items!G4kzTuNK1rMB7IMU"
 }

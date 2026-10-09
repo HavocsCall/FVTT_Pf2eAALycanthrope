@@ -1,0 +1,120 @@
+{
+	"name": "Selachine",
+	"type": "heritage",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p>Were-sharks</p><hr><p><strong>While in your Hybrid form:</strong></p><p>Your land speed is 20 ft and your swim speed is 20 ft.</p><p>You gain the Amphibious trait.</p><p></p><p><strong>While in your Animal or Hybrid form:</strong></p><p>You have a jaws attack that deals @Damage[1d8[slashing]] damage with the agile trait and in the brawling weapon group.</p><p>You can speak with other shark and fish.</p><p></p><p><strong>While in your Animal form:</strong></p><p>Your equipment melds into your new form. You use your unarmored defense modifier for your AC. Your weapons are not available. Magic items that have a passive effect no longer work and magic items are not able to be activated except items that are specifically made for animal forms (such as @UUID[Compendium.pf2e.equipment-srd.Dntj7zwUTmj4fboD]).</p><p>You are unable to cast spells or any actions that specifically need somatic requirements, like hand movements.</p><p>You are unable to speak, except to other animals of your type.</p><p>Your land speed is 0 ft and your swim speed is 30 ft.</p><p>You gain the Aquatic trait.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [
+			{
+				"category": "unarmed",
+				"damage": {
+					"base": {
+						"damageType": "slashing",
+						"dice": 1,
+						"die": "d8"
+					}
+				},
+				"group": "brawling",
+				"img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+				"key": "Strike",
+				"label": "PF2E.BattleForm.Attack.Jaws",
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				],
+				"slug": "jaws",
+				"traits": ["agile", "unarmed"]
+			},
+			{
+				"key": "BaseSpeed",
+				"selector": "land",
+				"value": 20,
+				"predicate": ["change-shape:hybrid"],
+				"force": true
+			},
+			{
+				"key": "BaseSpeed",
+				"selector": "swim",
+				"value": 20,
+				"predicate": ["change-shape:hybrid"],
+				"force": true
+			},
+			{
+				"key": "BaseSpeed",
+				"selector": "land",
+				"value": 0,
+				"predicate": ["change-shape:animal"],
+				"force": true
+			},
+			{
+				"key": "BaseSpeed",
+				"selector": "swim",
+				"value": 30,
+				"predicate": ["change-shape:animal"],
+				"force": true
+			},
+			{
+				"key": "TokenImage",
+				"value": "modules/pf2e-tokens-bestiaries/tokens/bestial/aquatic/great-white-shark.webp",
+				"ring": null,
+				"predicate": ["change-shape:animal"]
+			},
+			{
+				"key": "ActorTraits",
+				"add": ["amphibious"],
+				"predicate": ["change-shape:hybrid"]
+			},
+			{
+				"key": "ActorTraits",
+				"add": ["aquatic"],
+				"predicate": ["change-shape:animal"]
+			}
+		],
+		"slug": "selachine",
+		"traits": {
+			"otherTags": [],
+			"value": ["selachine"],
+			"rarity": "common"
+		},
+		"ancestry": {
+			"name": "Lycanthrope",
+			"slug": "lycanthrope",
+			"uuid": "Compendium.FVTT_Pf2eAALycanthrope.ancestries.Item.Lycanthrope00001"
+		}
+	},
+	"_id": "I3aCa9l4wQGaYwRO",
+	"img": "systems/pf2e/icons/default-icons/heritage.svg",
+	"folder": null,
+	"ownership": {
+		"default": 0,
+		"XXjyL2AwsEjLd9sN": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791400279526,
+		"modifiedTime": 1791402203044,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"sort": 400000,
+	"_key": "!items!I3aCa9l4wQGaYwRO"
+}
