@@ -9,7 +9,7 @@
 			"previous": null
 		},
 		"description": {
-			"value": "<p><strong>Requirements</strong> You're in boar or hybrid shape.</p><p><strong>Trigger</strong> Your last action was stride at least 10 ft towards the target</p><hr><p>You strike with your tusks. You gain a circumstance bonus to damage equal to the number of damage die.</p>",
+			"value": "<p><strong>Requirements</strong> You're in Hybrid or Animal Form, Your last action was stride at least 10 ft towards the target.</p><hr><p>You strike with your tusks. If your Tusk's attack succeeds, you may attempt to shove the target 5 feet opposite of your stride direction.</p>",
 			"gm": ""
 		},
 		"publication": {
@@ -22,7 +22,7 @@
 		"slug": null,
 		"traits": {
 			"otherTags": [],
-			"value": ["lycanthrope"],
+			"value": ["lycanthrope", "suine"],
 			"rarity": "common"
 		},
 		"level": {
@@ -38,7 +38,11 @@
 			"value": 1
 		},
 		"prerequisites": {
-			"value": []
+			"value": [
+				{
+					"value": "Suine Heritage"
+				}
+			]
 		},
 		"subfeatures": {
 			"proficiencies": {},
@@ -49,7 +53,7 @@
 	},
 	"_id": "nmFbUACUa66DN1YH",
 	"img": "icons/sundries/books/book-red-exclamation.webp",
-	"sort": 0,
+	"sort": 700000,
 	"ownership": {
 		"default": 0,
 		"VgNHGFD7Mb77Euf4": 3
@@ -60,8 +64,8 @@
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
 		"createdTime": 1791335655459,
-		"modifiedTime": 1791335655459,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"modifiedTime": 1791427799385,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null

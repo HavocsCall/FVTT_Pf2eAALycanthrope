@@ -1,0 +1,73 @@
+{
+	"name": "Effect: Tenacious Roar",
+	"type": "effect",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p>With a mighty roar, you embolden yourself and allies. Up to 4 allies within 30 feet gain temporary health equal to half of your level rounded down that last for 1 minute.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [
+			{
+				"key": "TempHP",
+				"value": "max(floor(@actor.level / 2), 1)"
+			}
+		],
+		"slug": "effect-tenacious-roar",
+		"traits": {
+			"otherTags": [],
+			"value": []
+		},
+		"level": {
+			"value": 1
+		},
+		"duration": {
+			"value": 1,
+			"unit": "minutes",
+			"expiry": "turn-start",
+			"sustained": false
+		},
+		"tokenIcon": {
+			"show": true
+		},
+		"unidentified": false,
+		"start": {
+			"value": 0,
+			"initiative": null
+		},
+		"badge": null,
+		"fromSpell": false,
+		"context": null
+	},
+	"_id": "5ohNxKWrspLtc5kh",
+	"img": "systems/pf2e/icons/default-icons/effect.svg",
+	"folder": "ORuuxPF6QU61hIXt",
+	"ownership": {
+		"default": 0,
+		"XXjyL2AwsEjLd9sN": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791426037852,
+		"modifiedTime": 1791426037852,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"sort": 0,
+	"_key": "!items!5ohNxKWrspLtc5kh"
+}

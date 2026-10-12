@@ -1,6 +1,6 @@
 {
-	"folder": "MnlZJUOVL8MeDrNM",
-	"name": "Bleeding Frenzy (NEW NAME)",
+	"folder": "5AWCr4VwlrufycFL",
+	"name": "Vesper Flying",
 	"type": "feat",
 	"effects": [],
 	"system": {
@@ -9,7 +9,7 @@
 			"previous": null
 		},
 		"description": {
-			"value": "<p>Your serrated teeth rip and tear at your prey. When you critically hit with your jaws Strike from selachine heritage, your target takes 1d4 persistent bleed damage and you gain a +1 circumstance bonus to jaws Strikes against the target until the end of your turn.</p><p>If you have Bloodsense as a special sense, it becomes a precise sense with double its normal range when locating creatures taking persistent bleed damage.</p>",
+			"value": "<p>Your wings grow stronger. While in your Hybrid or Animal form, your flight speed increases to 25 ft and you no longer need to start and end on solid ground.</p>",
 			"gm": ""
 		},
 		"publication": {
@@ -18,15 +18,27 @@
 			"license": "OGL",
 			"remaster": false
 		},
-		"rules": [],
+		"rules": [
+			{
+				"key": "BaseSpeed",
+				"selector": "fly",
+				"value": 25,
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				],
+				"force": true
+			}
+		],
 		"slug": null,
 		"traits": {
 			"otherTags": [],
-			"value": ["lycanthrope"],
+			"value": ["lycanthrope", "vespertiline"],
 			"rarity": "common"
 		},
 		"level": {
-			"value": 5
+			"value": 9
 		},
 		"category": "ancestry",
 		"onlyLevel1": false,
@@ -38,7 +50,11 @@
 			"value": null
 		},
 		"prerequisites": {
-			"value": []
+			"value": [
+				{
+					"value": "Vespertiline Heritage"
+				}
+			]
 		},
 		"subfeatures": {
 			"proficiencies": {},
@@ -47,24 +63,24 @@
 		},
 		"location": null
 	},
-	"_id": "0cmcl6jLUs2h16vf",
+	"_id": "18PEYImkL6Beu5hW",
 	"img": "icons/sundries/books/book-red-exclamation.webp",
-	"sort": 0,
+	"sort": 100000,
 	"ownership": {
 		"default": 0,
-		"VgNHGFD7Mb77Euf4": 3
+		"XXjyL2AwsEjLd9sN": 3
 	},
 	"flags": {},
 	"_stats": {
 		"coreVersion": "14.367",
 		"systemId": "pf2e",
-		"systemVersion": "8.5.1",
-		"createdTime": 1791335655457,
-		"modifiedTime": 1791335655457,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"systemVersion": "8.6.0",
+		"createdTime": 1791415098892,
+		"modifiedTime": 1791573697095,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null
 	},
-	"_key": "!items!0cmcl6jLUs2h16vf"
+	"_key": "!items!18PEYImkL6Beu5hW"
 }

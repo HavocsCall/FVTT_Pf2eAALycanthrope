@@ -1,11 +1,17 @@
 {
 	"FVTT_PF2EAALYCANTHROPE": {
-		"NAME": "PF2e AA: Lycanthrope",
+		"NAME": "PF2e Accursed Ancestries: Lycanthrope",
 		"SPECIFICRULES": { "PREVIOUSANCESTRY": "Which ancestry did you have before becoming a lycanthrope?" },
 		"SETTINGS": {
 			"FORMERANCESTRYMODE": {
 				"NAME": "Former Ancestry: Use expanded sync",
 				"HINT": "Applies the selected former ancestry's chassis details to Lycanthrope characters."
+			},
+			"FORMERANCESTRYSOURCE": {
+				"NAME": "Former Ancestry: Available sources",
+				"HINT": "Limits new former ancestry selections to the PF2e Ancestries compendium or allows ancestries from every compendium pack.",
+				"PF2E": "PF2e ancestries only",
+				"ALL": "All compendium packs"
 			},
 			"FERALITYMETER": {
 				"NAME": "Ferality Meter: Show character sheet panel",

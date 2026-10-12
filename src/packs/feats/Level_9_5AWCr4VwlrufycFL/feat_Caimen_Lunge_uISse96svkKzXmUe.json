@@ -1,0 +1,74 @@
+{
+	"folder": "5AWCr4VwlrufycFL",
+	"name": "Caimen Lunge",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p><strong>Frequency</strong> Once per Hour</p><p><strong>Requirements</strong> You are in Hybrid or Animal form</p><hr><p>You raise yourself up with your legs, granting you a burst of speed. You may take two of the following actions, Stride, Step, Swim, or Leap, in whichever order, You may take the same action twice. Afterwards, if you end your movement within your Jaws' range of an enemy, you can Strike with your Jaws.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": null,
+		"traits": {
+			"otherTags": [],
+			"value": ["crocodiline", "lycanthrope"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 9
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "action"
+		},
+		"actions": {
+			"value": 2
+		},
+		"prerequisites": {
+			"value": [
+				{
+					"value": "Crocodiline Heritage"
+				}
+			]
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "uISse96svkKzXmUe",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 500000,
+	"ownership": {
+		"default": 0,
+		"XXjyL2AwsEjLd9sN": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791417797566,
+		"modifiedTime": 1791423502178,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!uISse96svkKzXmUe"
+}

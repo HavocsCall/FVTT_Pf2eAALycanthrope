@@ -9,15 +9,7 @@
 		},
 		"rules": [
 			{
-				"choices": {
-					"filter": [
-						{
-							"not": "item:slug:{actor|system.details.ancestry.trait}"
-						}
-					],
-					"itemType": "ancestry",
-					"slugsAsValues": true
-				},
+				"choices": "accursedAncestries.formerAncestryChoices.lycanthrope",
 				"flag": "ancestry",
 				"key": "ChoiceSet",
 				"prompt": "FVTT_PF2EAALYCANTHROPE.SPECIFICRULES.PREVIOUSANCESTRY"
@@ -37,7 +29,7 @@
 			{
 				"key": "Weakness",
 				"type": "silver",
-				"value": "floor(@actor.level/2)"
+				"value": "max(floor(@actor.level / 2), 1)"
 			},
 			{
 				"key": "GrantItem",
@@ -137,8 +129,8 @@
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
 		"createdTime": 1790654400000,
-		"modifiedTime": 1791228541959,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4"
+		"modifiedTime": 1791427733867,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN"
 	},
 	"_id": "Lycanthrope00001",
 	"sort": 0,

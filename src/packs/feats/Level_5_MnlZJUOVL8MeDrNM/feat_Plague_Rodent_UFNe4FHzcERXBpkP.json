@@ -1,6 +1,6 @@
 {
 	"folder": "MnlZJUOVL8MeDrNM",
-	"name": "Bear Hug (Ursine)",
+	"name": "Plague Rodent",
 	"type": "feat",
 	"effects": [],
 	"system": {
@@ -9,7 +9,7 @@
 			"previous": null
 		},
 		"description": {
-			"value": "<p><strong>Requirements</strong> You're in bear or hybrid shape, and your last action was a successful claw Strike.</p><hr><p>You hug your opponent. You make another claw Strike against the same target. If this Strike hits, the target is @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} until the end of your next turn, unless you move or your target @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes}.</p>",
+			"value": "<p>Your bites carry a cursed infection. When you hit and deal damage to a creature with a jaws Strike while in hybrid or rat shape, the creature is cursed until the start of your next turn. Whenever they regain Hit Points during that time, they must attempt a @Check[fortitude|against:class-spell] save against your class DC or spell DC, whichever is higher.</p><hr><p>Success The creature regains Hit Points normally.</p><p>Failure The creature regains half the normal Hit Points.</p><p>Critical Failure The creature regains no Hit Points.</p>",
 			"gm": ""
 		},
 		"publication": {
@@ -19,10 +19,10 @@
 			"remaster": false
 		},
 		"rules": [],
-		"slug": "bear-hug-ursine",
+		"slug": "plague-rodent",
 		"traits": {
 			"otherTags": [],
-			"value": ["lycanthrope"],
+			"value": ["lycanthrope", "murine"],
 			"rarity": "common"
 		},
 		"level": {
@@ -38,7 +38,11 @@
 			"value": null
 		},
 		"prerequisites": {
-			"value": []
+			"value": [
+				{
+					"value": "Murine Heritage"
+				}
+			]
 		},
 		"subfeatures": {
 			"proficiencies": {},
@@ -47,9 +51,9 @@
 		},
 		"location": null
 	},
-	"_id": "CrQN2y5GmVNKyi3E",
+	"_id": "UFNe4FHzcERXBpkP",
 	"img": "icons/sundries/books/book-red-exclamation.webp",
-	"sort": 100000,
+	"sort": 600000,
 	"ownership": {
 		"default": 0,
 		"VgNHGFD7Mb77Euf4": 3
@@ -59,12 +63,12 @@
 		"coreVersion": "14.367",
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
-		"createdTime": 1791335655457,
-		"modifiedTime": 1791335655457,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"createdTime": 1791335655459,
+		"modifiedTime": 1791415958159,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null
 	},
-	"_key": "!items!CrQN2y5GmVNKyi3E"
+	"_key": "!items!UFNe4FHzcERXBpkP"
 }

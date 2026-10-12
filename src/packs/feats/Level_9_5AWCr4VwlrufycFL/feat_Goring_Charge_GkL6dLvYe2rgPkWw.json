@@ -1,6 +1,6 @@
 {
-	"folder": "qucrA4Tcw4CWDgOa",
-	"name": "Bestial Sense (NEW NAME)",
+	"folder": "5AWCr4VwlrufycFL",
+	"name": "Goring Charge",
 	"type": "feat",
 	"effects": [],
 	"system": {
@@ -9,7 +9,7 @@
 			"previous": null
 		},
 		"description": {
-			"value": "<p>All Imprecise, in Hybrid or animal form</p><p></p><p>Croc - Wavesense 30 ft</p><p>Lupine - Smell 30 ft</p><p>Murine - Smell 30 ft</p><p>Pantherine - Smell 30 ft</p><p>Selachian - Blood Sense 30 ft, 50 ft in water</p><p>Suine - Smell 30 ft</p><p>Ursine - Smell 30 ft</p><p>Vespertiline - Echolocation Precise 20 ft</p><p></p>",
+			"value": "<p>Tusks bleed somehow</p><p></p>",
 			"gm": ""
 		},
 		"publication": {
@@ -19,26 +19,30 @@
 			"remaster": false
 		},
 		"rules": [],
-		"slug": "bestial-sense",
+		"slug": null,
 		"traits": {
 			"otherTags": [],
-			"value": ["lycanthrope"],
+			"value": ["lycanthrope", "suine"],
 			"rarity": "common"
 		},
 		"level": {
-			"value": 1
+			"value": 9
 		},
 		"category": "ancestry",
 		"onlyLevel1": false,
 		"maxTakable": 1,
 		"actionType": {
-			"value": "passive"
+			"value": "action"
 		},
 		"actions": {
-			"value": null
+			"value": 2
 		},
 		"prerequisites": {
-			"value": []
+			"value": [
+				{
+					"value": "Suine Heritage"
+				}
+			]
 		},
 		"subfeatures": {
 			"proficiencies": {},
@@ -47,24 +51,24 @@
 		},
 		"location": null
 	},
-	"_id": "KTQl6hWXIqvzBWIP",
+	"_id": "GkL6dLvYe2rgPkWw",
 	"img": "icons/sundries/books/book-red-exclamation.webp",
-	"sort": 0,
+	"sort": 200000,
 	"ownership": {
 		"default": 0,
-		"VgNHGFD7Mb77Euf4": 3
+		"XXjyL2AwsEjLd9sN": 3
 	},
 	"flags": {},
 	"_stats": {
 		"coreVersion": "14.367",
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
-		"createdTime": 1791335652672,
-		"modifiedTime": 1791335652672,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"createdTime": 1791418505381,
+		"modifiedTime": 1791426184399,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null
 	},
-	"_key": "!items!KTQl6hWXIqvzBWIP"
+	"_key": "!items!GkL6dLvYe2rgPkWw"
 }

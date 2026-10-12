@@ -1,0 +1,103 @@
+{
+	"name": "Vespertiline",
+	"type": "heritage",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p>Were-bats</p><hr><p><strong>While in your Hybrid form:</strong></p><p>Your land speed is 20 ft and your fly speed is 15 ft.</p><p></p><p><strong>While in your Animal or Hybrid form:</strong></p><p>You have a claw attack that deals @Damage[1d6[slashing]] damage with the finesse trait and in the brawling weapon group.</p><p>You can speak with other bat creatures.</p><p>When Flying due to the fly speed granted by this form, you must begin and end your movement on a solid surface or immediately fall.</p><p></p><p><strong>While in your Animal form:</strong></p><p>Your equipment melds into your new form. You use your unarmored defense modifier for your AC. Your weapons are not available. Magic items that have a passive effect no longer work and magic items are not able to be activated except items that are specifically made for animal forms (such as @UUID[Compendium.pf2e.equipment-srd.Dntj7zwUTmj4fboD]).</p><p>You are unable to cast spells or any actions that specifically need somatic requirements, like hand movements.</p><p>You are unable to speak, except to other animals of your type.</p><p>Your land speed is 10 ft and your fly speed is 20 ft.</p><p>Your size is small.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [
+			{
+				"category": "unarmed",
+				"damage": {
+					"base": {
+						"damageType": "slashing",
+						"dice": 1,
+						"die": "d6"
+					}
+				},
+				"group": "brawling",
+				"img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+				"key": "Strike",
+				"label": "PF2E.BattleForm.Attack.Claw",
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				],
+				"slug": "claw",
+				"traits": ["finesse", "unarmed"]
+			},
+			{
+				"key": "BaseSpeed",
+				"selector": "land",
+				"value": 20,
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				],
+				"force": true
+			},
+			{
+				"key": "BaseSpeed",
+				"selector": "fly",
+				"value": 15,
+				"force": true,
+				"predicate": [
+					{
+						"or": ["change-shape:hybrid", "change-shape:animal"]
+					}
+				]
+			},
+			{
+				"key": "CreatureSize",
+				"predicate": ["change-shape:animal"],
+				"value": "small"
+			}
+		],
+		"slug": "vespertiline",
+		"traits": {
+			"otherTags": [],
+			"value": ["vespertiline"],
+			"rarity": "common"
+		},
+		"ancestry": {
+			"name": "Lycanthrope",
+			"slug": "lycanthrope",
+			"uuid": "Compendium.FVTT_Pf2eAALycanthrope.ancestries.Item.Lycanthrope00001"
+		}
+	},
+	"_id": "kEjl2eK0d4IFhys2",
+	"img": "systems/pf2e/icons/default-icons/heritage.svg",
+	"folder": null,
+	"ownership": {
+		"default": 0,
+		"XXjyL2AwsEjLd9sN": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791402038128,
+		"modifiedTime": 1791415445682,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"sort": 200000,
+	"_key": "!items!kEjl2eK0d4IFhys2"
+}

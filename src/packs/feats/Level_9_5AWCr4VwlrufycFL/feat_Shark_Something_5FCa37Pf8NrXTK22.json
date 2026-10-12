@@ -1,0 +1,74 @@
+{
+	"folder": "5AWCr4VwlrufycFL",
+	"name": "Shark Something",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": null,
+		"traits": {
+			"otherTags": [],
+			"value": ["lycanthrope", "selachine"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 9
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "passive"
+		},
+		"actions": {
+			"value": null
+		},
+		"prerequisites": {
+			"value": [
+				{
+					"value": "Selachine Heritage"
+				}
+			]
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "5FCa37Pf8NrXTK22",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 0,
+	"ownership": {
+		"default": 0,
+		"XXjyL2AwsEjLd9sN": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791426218722,
+		"modifiedTime": 1791427103622,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!5FCa37Pf8NrXTK22"
+}

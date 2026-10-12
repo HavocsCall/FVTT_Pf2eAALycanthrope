@@ -37,7 +37,7 @@
 		"slug": null,
 		"traits": {
 			"otherTags": [],
-			"value": ["lycanthrope"],
+			"value": ["lupine", "lycanthrope"],
 			"rarity": "common"
 		},
 		"level": {
@@ -53,7 +53,11 @@
 			"value": null
 		},
 		"prerequisites": {
-			"value": []
+			"value": [
+				{
+					"value": "Lupine Heritage"
+				}
+			]
 		},
 		"subfeatures": {
 			"proficiencies": {},
@@ -64,7 +68,7 @@
 	},
 	"_id": "Tyt3m8Dw96sFx2QJ",
 	"img": "icons/sundries/books/book-red-exclamation.webp",
-	"sort": 0,
+	"sort": 500000,
 	"ownership": {
 		"default": 0,
 		"VgNHGFD7Mb77Euf4": 3
@@ -75,8 +79,8 @@
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
 		"createdTime": 1791335655458,
-		"modifiedTime": 1791335655458,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"modifiedTime": 1791415944676,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null

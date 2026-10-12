@@ -2,8 +2,9 @@
 
 ## Lycanthropes
 
+- Most effects will only be activated in hybrid or animal form
 - Speak with animals of the same type
-- Ferality that increases. Need to figure out the most practical way to handle this.
+- Ferality that increases. Need to figure out the most practical way to handle this and reprecussions
 - Normal, hybrid, and animal forms
 - Weakness to silver
 - Fast Recovery as a granted general feat

@@ -1,0 +1,74 @@
+{
+	"folder": "5AWCr4VwlrufycFL",
+	"name": "Call the Swarm",
+	"type": "feat",
+	"effects": [],
+	"system": {
+		"_migration": {
+			"version": 0.959,
+			"previous": null
+		},
+		"description": {
+			"value": "<p><strong>Frequency</strong> Once per Day</p><p><strong>Requirements</strong> You are in your Hybrid or Animal form</p><hr><p>You call forth a swarm of your brethren onto your enemies. This has the effects of the @UUID[Compendium.pf2e.spells-srd.fRqHDOWmgcUTeT03] spell with the rat squadrons. The targets saves against your Class DC or Spell DC, whichever is higher.</p><hr><p>Sometimes the most common irritations can band together and become threats to your enemies. You reach out to the pests and nuisances around you, forming a small squadron of them to harass and occupy your opponents. They swarm from the forests, the air, and even the dirt beneath your feet. The pest squadron occupies the space of a Large creature, and like a swarm, they can occupy the same space as other creatures. When you Cast this Spell, choose one of the pest squadrons below to summon.</p><p><strong>Rats</strong> Speed 30 feet, burrow 20 feet.</p><p><strong>Arrive</strong> Chittering Race Rats swarm the legs of your enemies, biting at them and digging their sharp nails into whatever exposed flesh reveals itself. Each enemy in their space takes @Damage[4d6[piercing]|options:area-damage] damage (@Check[reflex|basic|against:class-spell|options:area-effect] save).</p><p><strong>Depart</strong> Underfoot The rats scurry underfoot, tripping up enemies and burrowing underground to make a swift getaway. Each enemy in their space must succeed a @Check[reflex|against:class-spell|options:area-effect,damaging-effect,inflicts:prone] save or be knocked @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60] and take @Damage[2d6[bludgeoning]|options:area-damage] damage. The area the rat swarm was in becomes difficult terrain for 1 round.</p>",
+			"gm": ""
+		},
+		"publication": {
+			"title": "",
+			"authors": "",
+			"license": "OGL",
+			"remaster": false
+		},
+		"rules": [],
+		"slug": null,
+		"traits": {
+			"otherTags": [],
+			"value": ["lycanthrope", "murine"],
+			"rarity": "common"
+		},
+		"level": {
+			"value": 9
+		},
+		"category": "ancestry",
+		"onlyLevel1": false,
+		"maxTakable": 1,
+		"actionType": {
+			"value": "action"
+		},
+		"actions": {
+			"value": 3
+		},
+		"prerequisites": {
+			"value": [
+				{
+					"value": "Murine Heritage"
+				}
+			]
+		},
+		"subfeatures": {
+			"proficiencies": {},
+			"senses": {},
+			"suppressedFeatures": []
+		},
+		"location": null
+	},
+	"_id": "qfjyKKmsmrTFNzOj",
+	"img": "icons/sundries/books/book-red-exclamation.webp",
+	"sort": 0,
+	"ownership": {
+		"default": 0,
+		"XXjyL2AwsEjLd9sN": 3
+	},
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.367",
+		"systemId": "pf2e",
+		"systemVersion": "8.5.1",
+		"createdTime": 1791426204019,
+		"modifiedTime": 1791427043418,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
+		"compendiumSource": null,
+		"duplicateSource": null,
+		"exportSource": null
+	},
+	"_key": "!items!qfjyKKmsmrTFNzOj"
+}

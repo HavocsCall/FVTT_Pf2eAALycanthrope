@@ -22,13 +22,13 @@
 		"slug": null,
 		"traits": {
 			"otherTags": [],
-			"value": ["lycanthrope"],
+			"value": ["lycanthrope", "vespertiline"],
 			"rarity": "common"
 		},
 		"level": {
 			"value": 5
 		},
-		"category": "bonus",
+		"category": "ancestry",
 		"onlyLevel1": false,
 		"maxTakable": 1,
 		"actionType": {
@@ -38,7 +38,11 @@
 			"value": null
 		},
 		"prerequisites": {
-			"value": []
+			"value": [
+				{
+					"value": "Vespertiline Heritage"
+				}
+			]
 		},
 		"subfeatures": {
 			"proficiencies": {},
@@ -49,7 +53,7 @@
 	},
 	"_id": "JmxPwLebGSnKmXxO",
 	"img": "icons/sundries/books/book-red-exclamation.webp",
-	"sort": 0,
+	"sort": 300000,
 	"ownership": {
 		"default": 0,
 		"VgNHGFD7Mb77Euf4": 3
@@ -60,8 +64,8 @@
 		"systemId": "pf2e",
 		"systemVersion": "8.5.1",
 		"createdTime": 1791335655456,
-		"modifiedTime": 1791335655456,
-		"lastModifiedBy": "VgNHGFD7Mb77Euf4",
+		"modifiedTime": 1791415919225,
+		"lastModifiedBy": "XXjyL2AwsEjLd9sN",
 		"compendiumSource": null,
 		"duplicateSource": null,
 		"exportSource": null
